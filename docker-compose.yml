@@ -1,0 +1,10 @@
+version: '3'
+services:
+  discord-gitlab-bot:
+    build: .
+    container_name: discord-gitlab-bot
+    env_file:
+      - .env
+    #ports:
+    #  - "3000:3000" # Si ton application expose un port
+    restart: unless-stopped

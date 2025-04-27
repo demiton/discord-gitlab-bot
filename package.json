@@ -1,0 +1,15 @@
+{
+  "name": "discord-gitlab-bot",
+  "version": "1.0.0",
+  "description": "Un bot Discord pour déclencher des builds GitLab et afficher leur statut",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
